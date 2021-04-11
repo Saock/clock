@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Часы</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="vue.js"></script>
+</head>
+
+<body>
+	<div class="mainContainer" id="clock">
+		<div class="clockContainer container">
+			<div >
+				{{ localeDate }}
+			</div>
+		</div>
+		<div class="eventContainer container">
+			<div id="events">
+				{{ events.e1.ev }}
+			</div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+
+</body>
+
+</html>

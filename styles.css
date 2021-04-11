@@ -1,0 +1,40 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+@font-face {
+	font-family: digital-7;
+	src: url(fonts/digital-7.ttf);
+}
+
+.mainContainer {
+	display: flex;
+	width: 100%;
+	min-width: 500px;
+	height: 100%;
+	min-height: 200px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: url(img/bcg.jpg) no-repeat;
+	background-size: cover;
+}
+
+.clockContainer {
+	font-family: digital-7;
+	font-size: 60px;
+}
+
+.eventContainer {
+	max-width: 700px;
+	min-width: 280px;
+	font-size: 20px;
+}
+
+.container {
+	padding: 0 20px;
+}
